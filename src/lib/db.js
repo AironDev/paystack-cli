@@ -23,4 +23,7 @@ module.exports = {
     return db.get(key)
     .find(query).value()
   },
+  clear() {
+    db.assign({ token: '', user: {}, selected_integration: {}, token_expiry: null }).write();
+  }
 }

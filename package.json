@@ -1,12 +1,12 @@
 {
   "name": "@airondev/paystack-cli",
   "description": "Set up, test, and manage your paystackcli integration directly from the terminal.",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "Lukman Bello @lukman-paystack",
   "bin": {
     "paystackcli": "./bin/run"
   },
-  "bugs": "https://github.com/paystackcliOSS/paystackcli-cli/issues",
+  "bugs": "https://github.com/airondev/paystack-cli/issues",
   "dependencies": {
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
@@ -42,7 +42,7 @@
     "/oclif.manifest.json",
     "/src"
   ],
-  "homepage": "https://github.com/paystackcliOSS/paystackcli-cli",
+  "homepage": "https://github.com/airondev/paystack-cli",
   "keywords": [
     "paystackcli",
     "oclif"
